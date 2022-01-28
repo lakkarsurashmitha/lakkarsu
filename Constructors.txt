@@ -1,0 +1,39 @@
+package Com.Rashmitha.Training;
+
+public class ConstructorDemo1 {
+	public class ConstructorDemo {
+		int id;
+		String name;
+	void display() {
+		System.out.println(id+" "+name);}}
+public class constructorDemo {
+public  void main(String[] args) {
+ConstructorDemo emp1=new ConstructorDemo();
+ConstructorDemo emp2=new ConstructorDemo();
+emp1.display();
+emp2.display();
+		}}
+	//parameterized constructor
+	class Std{
+		int id;
+		String name;
+		Std(int i,String n)
+		{
+		id=i;
+		name=n;
+		}
+		void display() {
+		System.out.println(id+" "+name);
+		}
+	}
+	public class paramConstrDemo {
+	public void main(String[] args) {
+		Std std1=new Std(2,"Alex");
+		Std std2=new Std(10,"Annie");
+		std1.display();
+		std2.display();
+	}}}
+
+
+
+
